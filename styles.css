@@ -1,0 +1,138 @@
+/*Color palette
+
+#FFFFFF-White color
+#006aff- Navy Blue color
+#2a2a33- Dark Grey color
+
+
+
+
+*/
+
+/*Global
+-----------------------------*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #FFFFFF;
+    color: #2a2a33;
+    font-family:'Open Sans', sans-serif;
+    font-weight: 400;
+}
+ul{
+    
+    list-style: none;
+    padding: 0;
+       
+}
+
+
+/*Header
+-----------------------------*/
+
+.navigation-wrap{
+    width: 100%;
+    
+}
+nav{
+    width: 70%;
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: center;
+    padding: 30px;  
+}
+  
+ nav li{
+    padding: 10px;
+    display: inline-block;
+    font-size: 14px;
+ }
+.left-menu-wrap{
+width: 33.3%;
+float: left;
+}
+.logo-wrap{
+width: 33.3%;
+float: left;
+
+}
+.right-menu-wrap{
+width: 33.3%;
+float: left;
+}
+
+.logo{
+    width:152px;
+    height: 35px;
+    margin: 0 auto;
+}   
+.Search-form-wrap{
+    background-image: url('Images/House-background-image.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 800px;
+    padding: 50px 0;
+    
+   
+} 
+.Search-form-wrap h1 {
+color: #FFFFFF;
+font-family: 'Lato', sans-serif;
+font-size: 60px;
+font-weight: 900;
+line-height: 1.5;
+margin-bottom: 15px;
+} 
+.Search-form-wrap h2 {
+    color: #FFFFFF;
+    font-family:'Open Sans', sans-serif;
+    font-size: 22px;
+    font-weight: 400; 
+    
+}
+.header-wrap{   
+    text-align: center;
+    padding-top: 50px;
+    margin-bottom: 30px;
+}
+.search-bar{
+    width: 35%;
+    margin: 0 auto;
+    background-color:#FFFFFF;
+    font-size: 0; 
+    border-radius: 5px;
+    border: 1px solid transparent;
+    
+}
+.search-bar:hover{
+    border: 1px solid #006aff;
+}
+.search, .search-button {
+    width: 90%;
+    height: 65px;
+    background-color:transparent;
+    font-family:'Open Sans', sans-serif;
+    font-weight: 400;
+    color:#2a2a33;
+    border: none;    
+}
+.search{
+   
+    padding-left: 5%;
+    font-size: 15px;
+    display: block;
+    float: left;
+    
+}
+.search-button{
+    width: 10%;
+    font-size: 20px; 
+    cursor: pointer;
+} 
+  
+    
+
+
+
